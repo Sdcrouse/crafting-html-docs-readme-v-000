@@ -11,7 +11,7 @@ In this lesson we're going to introduce you to some more essential HTML tags.
 
 1. Identify patterns around tags, markup, and content
 2. Define the document type tag: `<doctype>`
-3. Define the HTML Content Area with the `<html>`, `<head>`, and `<body>` tag
+3. Define the HTML Content Area with the `<html>`, `<head>`, and `<body>` tags
 4. Recognize an HTML Comment
 5. Introduce the Most-Common HTML Elements
 
@@ -24,7 +24,7 @@ HTML, or HyperText Markup Language, is a markup language which describes the
 structure and meaning of web content. Web browsers, such as Mozilla Firefox,
 Internet Explorer, and Google Chrome interpret the HTML code and use it to
 create rendered output. Unlike Ruby, JavaScript and other programming
-languages, markup languages like HTML can't process logic. You can't write in HTML:
+languages, markup languages like HTML can't process logic. You can't write in HTML,
 "print this line 3 times" or "if it's Thursday, make the heading 'Baloney
 Sandwiches for Lunch!'"
 
@@ -80,14 +80,14 @@ In the following steps we're going to create an HTML file. You might want to
 use your Sandbox and type along.
 
 We'd like to introduce you to a new tag, a tag that defines the _entire_ HTML
-document. Its called the `doctype` tag. The HTML standard says that all HTML
-documents begin with a "doctype declaration" tag. It should go very first.
+document. It's called the `doctype` tag. The HTML standard says that all HTML
+documents begin with a "doctype declaration" tag. It should go at the very top.
 
 If one is missing, most browsers pretend one is there, but you should always be
 explicit and define it yourself.
 
 The `doctype` tag tells our web browser which version of HTML to use. HTML is a
-language that is still evolving. We might call that the doctype of _Romeo &amp;
+language that is still evolving. We might say that the doctype of _Romeo &amp;
 Juliet_ is "Elizabethan English." The doctype of a speech by Barack Obama is
 "Modern English." The two are more similar than different, but some things
 aren't supported anymore.
@@ -104,7 +104,7 @@ To use HTML5, the current up-to-date version, we can simply write
 
 ```
 
-## Define The HTML Content Area With The `<html>`, `<head>`, And `<body>` Tag
+## Define the HTML Content Area with the `<html>`, `<head>`, and `<body>` Tags
 
 Next, we add an opening and closing `html` tag. This tells the web browser to
 interpret everything inside the tags as HTML code.
@@ -140,12 +140,12 @@ contains the actual content.
 ## Recognize an HTML Comment
 
 Let's also take a brief moment to recognize how to add comments into an HTML
-document.  These won't get rendered to the browser at all: they're just helpful
-notes for the author. We included two in the pevious section, they begin with
+document.  These won't get rendered to the browser at all; they're just helpful
+notes for the author. We included two in the previous section, they begin with
 `<!--` and end with `-->`.
 
 ```html
-<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human like! -->
+<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human alike! -->
 <p>Top 5 Pizza Places in NYC</p>
 ```
 
@@ -187,14 +187,14 @@ doesn't have a closing tag. The `src` attribute tells the browser where to find
 the image. The `alt` attribute will be displayed if an image can't be loaded,
 and also describes the image to search engines.
 
-The `alt` tag presents a moment to talk about an important principle behind Tim
+The `alt` attribute presents a moment to talk about an important principle behind Tim
 Berners-Lee's vision for the Web: it is _inclusive_. If you're using assistive
 technologies because you have a sight impairment, you shouldn't be cut off from
 the web.  If you're in a remote community where internet access is expensive,
 you might choose to disable images, but not lose the web.
 
 While an `img` will "work," honoring the Web's vision for openness and
-inclusion requires that we provide the `alt` tag as well.
+inclusion requires that we provide the `alt` attribute as well.
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
@@ -205,8 +205,8 @@ write:
 
 #### Lists
 
-We can make bulleted, or unordered lists, using opening and closing `ul` tags.
-Inside, we can nest an `li`, or "list item" element for each item on our list.
+We can make bulleted, or unordered, lists using opening and closing `ul` tags.
+Inside, we can nest an `li`, or "list item", element for each item on our list.
 
 ```html
 <h5>My Favorite Things in No Particular Order</h5>
@@ -229,7 +229,7 @@ ____
 </ul>
 ____
 
-We can also make a numbered, or ordered list, using an `ol` tag.
+We can also make a numbered, or ordered, list using an `ol` tag.
 
 ```html
 <h5>Top 5 Pizza Places in NYC</h5>
@@ -262,7 +262,7 @@ You should be feeling comfortable with the concepts of markup, tags, and
 content. You've had some practice seeing HTML change rendered text.
 
 With this lesson we've rolled in some of the "formal rules" of HTML.
-While browsers _generally_ do a great job guessing what you
+While browsers _generally_ do a great job at guessing what you
 meant, we want to follow the guidelines to make sure we don't get any surprises.
 
 Keep practicing!
